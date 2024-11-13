@@ -22,7 +22,7 @@ Nun solltet ihr in den linken unteren Ecke des Fensters ein blauen Rechteck sehe
 Anschließend klickt ihr auf File->Open Folder und öffnet das repo bzw. das entpackte Zip.
 
 Euch sollte unten rechts ein Dialog Fenster angezeigt werden, dass folgende Möglichkeit bietet: **Reopen in Container**. Das müsst ihr anklicken.
-Wenn dieser Dialog nicht erscheint, klickt ihr auf das quadrat unten Links und anschließend auf *Rebuild Container*. Das kann einige Minuten dauern.
+Wenn dieser Dialog nicht erscheint, klickt ihr auf das quadrat unten Links und anschließend auf *Rebuild Container*. ***Das kann einige Minuten dauern!***
 
 
 ## Nutzen ##
