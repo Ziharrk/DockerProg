@@ -1,6 +1,10 @@
 //devcontainer.json
 {
     "name": "Haskell",
+
+    "workspaceFolder": "/workspace",
+
+    "workspaceMount": "source=/home/paul/Git/Uni/dockerprog/src,target=/workspace,type=bind",
   
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
     //"image": "dekl_prog_haskell:latest",
