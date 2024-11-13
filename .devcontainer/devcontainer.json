@@ -1,0 +1,18 @@
+//devcontainer.json
+{
+    "name": "Haskell",
+  
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    //"image": "dekl_prog_haskell:latest",
+    "build" :  {
+        "dockerfile" : "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "haskell.haskell"
+            ]
+        }
+    }
+    
+  }
