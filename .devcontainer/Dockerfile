@@ -14,3 +14,8 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 # Set the PATH
 RUN echo "source /root/.ghcup/env" >> ./root/.bashrc
+
+RUN mkdir hs_files
+WORKDIR "/hs_files"
+
+CMD /root/.ghcup/bin/ghci
