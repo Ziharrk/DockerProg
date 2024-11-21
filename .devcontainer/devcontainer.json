@@ -8,7 +8,7 @@
     //    "dockerfile" : "Dockerfile"
     //},
     "workspaceFolder": "/hs_files",
-    "workspaceMount": "source=/home/paul/Git/Uni/dockerprog,target=/hs_files,type=bind",
+    "workspaceMount": "source=.,target=/hs_files,type=bind",
     "customizations": {
         "vscode": {
             "extensions": [
