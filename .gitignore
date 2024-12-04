@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Whitelist the important files
+!test.hs
+!.devcontainer/*
+!.vscode/*
+!.gitignore
+!README.md
