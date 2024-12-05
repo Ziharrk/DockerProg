@@ -14,9 +14,9 @@ Beide Programme gibt es für *Windows, Linux, MacOS*.
 
 Danach müsst ihr dieses Git Repository mittels
 ```bash
-git clone git@informatik.....
+git clone --recursive https://git.informatik.uni-kiel.de/stu223745/dockerprog.git
 ```
-klonen oder euch [hier](https://git.informatik.uni-kiel.de/stu223745/dockerprog/-/archive/main/dockerprog-main.zip) die zip Datei herunter laden und entpacken.
+klonen (alternativ ssh) oder euch [hier](https://git.informatik.uni-kiel.de/stu223745/dockerprog/-/archive/main/dockerprog-main.zip) die zip Datei herunter laden und entpacken. Allerdings fehlt dann das deklprog-template und kann nicht genutzt werden (nicht empfohlen!)
 
 
 ### Einrichtung ###
