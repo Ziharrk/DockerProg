@@ -7,3 +7,5 @@
 !.vscode/*
 !.gitignore
 !README.md
+!deklprog-template
+!cabal.project
