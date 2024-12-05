@@ -1,4 +1,4 @@
-# Hasekll in Docker #
+# Haskell in Docker #
 
 Es gibt zwei Möglichkeiten, Haskell in Docker zu entwickeln.
 Einerseits mit VS Code und Docker zusammen. Das hat den Vorteil, dass man dann auch Autocompletion und Syntax Highlithing hat.
@@ -16,7 +16,7 @@ Danach müsst ihr dieses Git Repository mittels
 ```bash
 git clone git@informatik.....
 ```
-klonen oder euch [hier]() die zip Datei herunter laden und entpacken.
+klonen oder euch [hier](https://git.informatik.uni-kiel.de/stu223745/dockerprog/-/archive/main/dockerprog-main.zip) die zip Datei herunter laden und entpacken.
 
 
 ### Einrichtung ###
@@ -30,22 +30,22 @@ Anschließend klickt ihr auf File->Open Folder und öffnet das repo bzw. das ent
 Euch sollte unten rechts ein Dialog Fenster angezeigt werden, dass folgende Möglichkeit bietet: **Reopen in Container**. Das müsst ihr anklicken.
 Wenn dieser Dialog nicht erscheint, klickt ihr auf das quadrat unten Links und anschließend auf *Rebuild Container*. ***Das kann einige Minuten dauern!***
 
-
-### Nutzen ###
+### Benutzung ###
 
 Ihr könnt nun eure Haskell Dateien Links im File Explorer erstellen/ablegen (dort existiert bereits test.hs).
-Um dann den ghci zu starten, klickt ihr auf *Terminal->New Terminal* und gebt dann *ghci* in die Kommandozeile ein.
+Um dann den ghci zu starten, klickt ihr auf *Terminal->New Terminal* und gebt dann `ghci` in die Kommandozeile ein.
 
-Über das so erzeugte Terminal könnt ihr auch cabal benutzen.
+Über das so erzeugte Terminal könnt ihr auch cabal benutzen. Wenn ihr also das mitgelieferte Prokjekt-Template nutzen wollt, dann könnt ihr dieses via `cabal repl deklprog-temlate` laden.
+**Dies ist der empfohlene Weg** Eure Aufgaben könnt ihr dann in `deklprog-template/src/Exercises/WeekX.hs` bearbeiten und mit `:l Exercises.WeekX` (für passendes X) in `ghci/cabal` laden.
 
 ## Nur Docker ##
 
-## Voraussetzungen ##
+### Voraussetzungen ###
 
 Ihr müsst euch lokal [**Docker**](https://www.docker.com/) installieren.
 Das Programm gibt es für Windows, MacOS und Linux.
 
-## Benutzung ##
+### Benutzung ###
 
 Führt folgenden Befehl in der Kommandozeile aus:
 ```
